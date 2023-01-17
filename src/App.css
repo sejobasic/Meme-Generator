@@ -8,4 +8,53 @@
 body {
   height: 100%;
   font-family: 'Hanken Grotesk', sans-serif;
+  background-color: #abd1c6;
+  color: #e8e4e6;
+}
+
+header {
+  background-color: #004643;
+  padding: 2em;
+}
+
+header span {
+  font-weight: 400;
+}
+
+.form-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5em;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 1em;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+}
+
+input:focus {
+  outline-color: #004643;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #004643;
+  color: #e8e4e6;
+}
+
+button:hover {
+  background-color: #015c58;
 }
