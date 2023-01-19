@@ -23,10 +23,11 @@ function Form() {
     })
   }
   function handleChange(event) {
+    const { name, value } = event.target
     setMeme((prevState) => {
       return {
         ...prevState,
-        [event.target.name]: event.target.value,
+        [name]: value,
       }
     })
   }
